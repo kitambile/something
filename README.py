@@ -7,18 +7,18 @@ while(x!= 385):
     x=int(input("enter account number: "))
 a=int(1000000)
 print("Your balance is: " + str(a) + " dollars")
-f=input("Do you want to make a deposit or withdfrawal")
+f=input("Do you want to make a deposit or withdrawal: ")
 
 while (f=="deposit"):
     g=int(input("enter amount you want to deposit"))
     balance=("Your total balance after deposit is: "+ str(a+g))
     a=a+g
     print(balance)
-    f=int(input("Do you want to make a deposit or withdrawal?")
+    f=int(input("Do you want to make a deposit or withdrawal?"))
 
 
 while (f=="withdrawal"):
-    e=int(input("enter amount you want to withdraw: ")
+    e=int(input("enter amount you want to withdraw: "))
     if (e>a):
         print("overdraw")
     balance=("your total balance after withdrawal is " + str(a-e))
