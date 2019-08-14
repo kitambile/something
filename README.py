@@ -6,4 +6,4 @@ while(x!= 385):
     print('try again')
     x=int(input("enter account number: "))
 a-int(1000000)
-print("Your balance is + " str(a) + " dollars")
+print("Your balance is: " + str(a) + " dollars")
