@@ -14,7 +14,9 @@ while (f=="deposit"):
     balance=("Your total balance after deposit is: "+ str(a+g))
     a=a+g
     print(balance)
-    f=int(input("Do you want to make a deposit or withdrawal?"))
+    f=(input("Do you want to make a deposit or withdrawal or are you done?"))
+    if(f=="done"):
+        print("ok bye")
 
 
 while (f=="withdrawal"):
