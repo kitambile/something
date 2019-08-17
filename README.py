@@ -7,6 +7,7 @@ while(x!= 385):
     x=int(input("enter account number: "))
 a=int(1000000)
 print("Your balance is: " + str(a) + " dollars")
+
 f=input("Do you want to make a deposit or withdrawal: ")
 
 while (f=="deposit"):
