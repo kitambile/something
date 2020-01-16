@@ -1,6 +1,6 @@
 
 x=int(input("enter account number: "))
-# x=385
+#           x=385
 while (x!= 385):
     print("incorrect number")
     print("try again")
@@ -29,5 +29,3 @@ while (f=="withdrawal"):
     f=input("do you want to make a deposit or withdrawal or are you done?")
     if (f=="done"):
         print("ok bye!")
-
-
