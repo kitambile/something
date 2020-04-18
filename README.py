@@ -32,7 +32,7 @@ while (f=="withdrawal"):
 
 
 
-prin
+
 
 
 
